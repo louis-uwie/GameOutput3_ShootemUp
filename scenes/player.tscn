@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://bwk5hvgwrb25r"]
+[gd_scene load_steps=5 format=3 uid="uid://bwk5hvgwrb25r"]
 
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_aidqr"]
 [ext_resource type="Texture2D" uid="uid://s62x7jrvcgke" path="res://assets/Tanks/PNG/Hulls_Color_D/Hull_02.png" id="1_kthyn"]
 [ext_resource type="Texture2D" uid="uid://c8fowt201wqu7" path="res://assets/Tanks/PNG/Weapon_Color_D/Gun_02.png" id="3_qp1ol"]
+[ext_resource type="PackedScene" uid="uid://d2qnp18lrvcbv" path="res://Shell.tscn" id="4_ko7rj"]
 
 [node name="Player" type="CharacterBody2D"]
 motion_mode = 1
@@ -13,10 +14,16 @@ scale = Vector2(0.5, 0.5)
 texture = ExtResource("1_kthyn")
 
 [node name="tankWeapon" type="Sprite2D" parent="."]
-position = Vector2(0, -6)
+position = Vector2(0, -5)
 scale = Vector2(0.5, 0.5)
 texture = ExtResource("3_qp1ol")
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
-light_mask = 5
 polygon = PackedVector2Array(-30, 64, -37, 56, -37, 15, -43, 11, -43, -52, -38, -62, -15, -62, -11, -51, -11, -42, 1, -45, 12, -41, 11, -52, 15, -62, 39, -62, 43, -50, 43, 11, 38, 15, 38, 56, 30, 64, 16, 64, 13, 60, 13, 50, -13, 50, -13, 61, -16, 64)
+
+[node name="Shell" parent="." instance=ExtResource("4_ko7rj")]
+visible = false
+
+[node name="Timer" type="Timer" parent="."]
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
