@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bgxcfdqdcroyc"
-path="res://.godot/imported/Track_3_B.png-e3b466b3fc17bde8610270bf883d1e4d.ctex"
+path="res://.godot/imported/Track_3_B.png-e0666e77da8562de19d402f576c3df0a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Tanks/PNG/Tracks/Track_3_B.png"
-dest_files=["res://.godot/imported/Track_3_B.png-e3b466b3fc17bde8610270bf883d1e4d.ctex"]
+source_file="res://assets/tanks/PNG/Tracks/Track_3_B.png"
+dest_files=["res://.godot/imported/Track_3_B.png-e0666e77da8562de19d402f576c3df0a.ctex"]
 
 [params]
 

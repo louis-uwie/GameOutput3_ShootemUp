@@ -1,8 +1,8 @@
 [gd_scene load_steps=22 format=3 uid="uid://bhxaejl7movhj"]
 
-[ext_resource type="Texture2D" uid="uid://s62x7jrvcgke" path="res://assets/Tanks/PNG/Hulls_Color_D/Hull_02.png" id="1_kthyn"]
+[ext_resource type="Texture2D" uid="uid://s62x7jrvcgke" path="res://assets/tanks/PNG/Hulls_Color_D/Hull_02.png" id="1_kthyn"]
 [ext_resource type="Texture2D" uid="uid://qy47a0sbqivt" path="res://assets/2D explosions/Type 1/1.png" id="3_pfhr7"]
-[ext_resource type="Texture2D" uid="uid://c8fowt201wqu7" path="res://assets/Tanks/PNG/Weapon_Color_D/Gun_02.png" id="3_qp1ol"]
+[ext_resource type="Texture2D" uid="uid://c8fowt201wqu7" path="res://assets/tanks/PNG/Weapon_Color_D/Gun_02.png" id="3_qp1ol"]
 [ext_resource type="Texture2D" uid="uid://n5loturfi4qi" path="res://assets/2D explosions/Type 1/2.png" id="4_rflfd"]
 [ext_resource type="Texture2D" uid="uid://b3n3n4jf48oob" path="res://assets/2D explosions/Type 1/3.png" id="5_ins10"]
 [ext_resource type="Texture2D" uid="uid://bd84k3vno74ru" path="res://assets/2D explosions/Type 1/4.png" id="6_o4xmg"]
