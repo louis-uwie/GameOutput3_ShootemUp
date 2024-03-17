@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://d3kyb25weydt4"]
+
+[ext_resource type="Script" path="res://scripts/Blast.gd" id="1_nn6ib"]
+[ext_resource type="Texture2D" uid="uid://uqqksotw1bi3" path="res://assets/Tanks/PNG/Effects/Exhaust_Fire.png" id="2_sbpvs"]
+
+[node name="Blast" type="Area2D"]
+collision_layer = 4
+collision_mask = 2
+script = ExtResource("1_nn6ib")
+
+[node name="Shell_Icon" type="Sprite2D" parent="."]
+position = Vector2(0, 4)
+rotation = 3.14159
+scale = Vector2(0.787, 1)
+texture = ExtResource("2_sbpvs")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2(0, 4)
+rotation = 3.14159
+scale = Vector2(0.787, 1)
+polygon = PackedVector2Array(8.89454, -19, 10.1652, -15, 10.1652, -1, 10.1652, 1, 1.27065, 24, -1.27065, 24, -3.81194, 18, -10.1652, 2.38419e-07, -10.1652, -15, -8.89454, -19, -3.81194, -23, 3.81194, -23)
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
