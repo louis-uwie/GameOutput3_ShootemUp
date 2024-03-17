@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://beqtpkf05seao"
-path="res://.godot/imported/Gun_06_B.png-143133f28693b8a7da41ef97adf920a5.ctex"
+path="res://.godot/imported/Gun_06_B.png-1a6d17815cce2f83ed26b322a719a3f2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/tanks/PNG/Weapon_Color_B/Gun_06_B.png"
-dest_files=["res://.godot/imported/Gun_06_B.png-143133f28693b8a7da41ef97adf920a5.ctex"]
+source_file="res://assets/Tanks/PNG/Weapon_Color_B/Gun_06_B.png"
+dest_files=["res://.godot/imported/Gun_06_B.png-1a6d17815cce2f83ed26b322a719a3f2.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bcgle2vslolka"
-path="res://.godot/imported/Flash_A_05.png-795e41e7ee899d35cc68b5da5b275ff0.ctex"
+path="res://.godot/imported/Flash_A_05.png-f2862e75caa6ea31d5f3597d4bfb020d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/tanks/SCML/Fire_Shots/Flash_A_05.png"
-dest_files=["res://.godot/imported/Flash_A_05.png-795e41e7ee899d35cc68b5da5b275ff0.ctex"]
+source_file="res://assets/Tanks/SCML/Fire_Shots/Flash_A_05.png"
+dest_files=["res://.godot/imported/Flash_A_05.png-f2862e75caa6ea31d5f3597d4bfb020d.ctex"]
 
 [params]
 

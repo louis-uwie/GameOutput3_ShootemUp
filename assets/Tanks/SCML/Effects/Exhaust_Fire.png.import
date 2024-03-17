@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bk3xs5yt0ou35"
-path="res://.godot/imported/Exhaust_Fire.png-8cd31a11791a39652fa8e8b26e51655e.ctex"
+path="res://.godot/imported/Exhaust_Fire.png-ad64fa3bb64c76c38e522e904f1f99bc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/tanks/SCML/Effects/Exhaust_Fire.png"
-dest_files=["res://.godot/imported/Exhaust_Fire.png-8cd31a11791a39652fa8e8b26e51655e.ctex"]
+source_file="res://assets/Tanks/SCML/Effects/Exhaust_Fire.png"
+dest_files=["res://.godot/imported/Exhaust_Fire.png-ad64fa3bb64c76c38e522e904f1f99bc.ctex"]
 
 [params]
 
