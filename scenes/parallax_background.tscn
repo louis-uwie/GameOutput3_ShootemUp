@@ -2999,9 +2999,11 @@ position = Vector2(866, 2471)
 scale = Vector2(1.8706, 0.887762)
 shape = SubResource("CapsuleShape2D_bps3f")
 
-[node name="Area2D" type="Area2D" parent="."]
-visible = false
+[node name="StaticBody2D" type="StaticBody2D" parent="ParallaxLayer/Sprite2D/TileMap"]
 
-[node name="WorldBorder" type="CollisionPolygon2D" parent="Area2D"]
-visible = false
-polygon = PackedVector2Array(-256, -34, -256, 2, -259, 2022, 1409, 2014, 1408, 1991, 47, 1985, 46, 1815, 224, 1643, 43, 1473, 41, 1066, 63, 1040, 63, 990, 159, 910, 41, 786, 43, 579, 109, 523, 43, 427, 52, 0, 1107, 0, 1113, 834, 1011, 953, 1073, 1026, 1081, 1287, 903, 1502, 957, 1586, 960, 1651, 1031, 1725, 1033, 1770, 1096, 1858, 1093, 1990, 1408, 1991, 1410, -74, -1, -74, -256, -74)
+[node name="WorldBorderLeft" type="CollisionPolygon2D" parent="ParallaxLayer/Sprite2D/TileMap/StaticBody2D"]
+polygon = PackedVector2Array(-19, 1, -260, 3, -261, 1982, 42, 1982, 42, 1832, 228, 1657, 226, 1635, 39, 1454, 40, 1067, 67, 1046, 64, 995, 159, 911, 162, 869, 48, 755, 43, 569, 111, 520, 111, 475, 50, 414, 50, -1, 8, -1, -14, -1)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="ParallaxLayer/Sprite2D/TileMap/StaticBody2D"]
+position = Vector2(1113, 3)
+polygon = PackedVector2Array(0, 17, -4, 828, -102, 923, -102, 965, -35, 1042, -37, 1291, -215, 1466, -204, 1524, -145, 1589, -145, 1646, -78, 1726, -80, 1778, -15, 1845, -6, 1973, 297, 1976, 295, -9, 0, -2)

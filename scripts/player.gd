@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-@export var speed = 1500 #speed of tank
+@export var speed = 600 #speed of tank
 var rotation_speed = 1.0  #rotate speed (buggy if too low or too high values)
 var max_rotation = 45.0 #(also buggy if values are too high or low)
 

@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://ce3ara8kg80px"]
 
 [ext_resource type="PackedScene" uid="uid://dk8uwqn824d5" path="res://scenes/parallax_background.tscn" id="1_c5knn"]
-[ext_resource type="PackedScene" path="res://scenes/player.tscn" id="2_ban8g"]
+[ext_resource type="PackedScene" uid="uid://bwk5hvgwrb25r" path="res://scenes/player.tscn" id="2_ban8g"]
 
 [node name="Main" type="Node2D"]
 
@@ -9,9 +9,3 @@
 
 [node name="Player" parent="." instance=ExtResource("2_ban8g")]
 position = Vector2(593, 1072)
-
-[node name="Camera2D" type="Camera2D" parent="Player"]
-position = Vector2(2, 8)
-offset = Vector2(0, -270)
-zoom = Vector2(1, 0.8)
-position_smoothing_speed = 1.0
