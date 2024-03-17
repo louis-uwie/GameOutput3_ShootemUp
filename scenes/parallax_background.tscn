@@ -2906,7 +2906,7 @@ metadata/_edit_horizontal_guides_ = [1983.0]
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="."]
 motion_scale = Vector2(0.1, 0.1)
-motion_mirroring = Vector2(0, 1984)
+motion_mirroring = Vector2(0, 1985)
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer"]
 
@@ -3002,6 +3002,14 @@ shape = SubResource("CapsuleShape2D_bps3f")
 [node name="WorldBorderLeft" type="CollisionPolygon2D" parent="ParallaxLayer/Sprite2D/TileMap/WorldBorder"]
 polygon = PackedVector2Array(-19, 1, -260, 3, -261, 1982, 42, 1982, 42, 1832, 228, 1657, 226, 1635, 39, 1454, 40, 1067, 67, 1046, 64, 995, 159, 911, 162, 869, 48, 755, 43, 569, 111, 520, 111, 475, 50, 414, 50, -1, 8, -1, -14, -1)
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="ParallaxLayer/Sprite2D/TileMap/WorldBorder"]
+[node name="WorldBorderRight" type="CollisionPolygon2D" parent="ParallaxLayer/Sprite2D/TileMap/WorldBorder"]
 position = Vector2(1113, 3)
 polygon = PackedVector2Array(0, 17, -4, 828, -102, 923, -102, 965, -35, 1042, -37, 1291, -215, 1466, -204, 1524, -145, 1589, -145, 1646, -78, 1726, -80, 1778, -15, 1845, -6, 1973, 297, 1976, 295, -9, 0, -2)
+
+[node name="WorldBorderRight2" type="CollisionPolygon2D" parent="ParallaxLayer/Sprite2D/TileMap/WorldBorder"]
+position = Vector2(1116, 1987)
+polygon = PackedVector2Array(0, 17, -4, 828, -102, 923, -102, 965, -35, 1042, -37, 1291, -215, 1466, -204, 1524, -145, 1589, -145, 1646, -78, 1726, -80, 1778, -15, 1845, -6, 1973, 297, 1976, 295, -9, 0, -2)
+
+[node name="WorldBorderLeft2" type="CollisionPolygon2D" parent="ParallaxLayer/Sprite2D/TileMap/WorldBorder"]
+position = Vector2(-3, 1982)
+polygon = PackedVector2Array(-19, 1, -260, 3, -261, 1982, 42, 1982, 42, 1832, 228, 1657, 226, 1635, 39, 1454, 40, 1067, 67, 1046, 64, 995, 159, 911, 162, 869, 48, 755, 43, 569, 111, 520, 111, 475, 50, 414, 50, -1, 8, -1, -14, -1)

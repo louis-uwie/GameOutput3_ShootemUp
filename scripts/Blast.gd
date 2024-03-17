@@ -6,7 +6,7 @@ var hit = false
 
 func _physics_process(delta):
 	if position.y-50 < get_viewport_rect().size.y:
-		position.y += 5
+		position.y += 10
 	else:
 		queue_free()
 	

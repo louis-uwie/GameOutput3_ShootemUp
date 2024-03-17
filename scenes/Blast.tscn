@@ -1,7 +1,7 @@
 [gd_scene load_steps=13 format=3 uid="uid://d3kyb25weydt4"]
 
 [ext_resource type="Script" path="res://scripts/Blast.gd" id="1_nn6ib"]
-[ext_resource type="Texture2D" uid="uid://uqqksotw1bi3" path="res://assets/Tanks/PNG/Effects/Exhaust_Fire.png" id="2_sbpvs"]
+[ext_resource type="Texture2D" uid="uid://uqqksotw1bi3" path="res://assets/tanks/PNG/Effects/Exhaust_Fire.png" id="2_sbpvs"]
 [ext_resource type="Texture2D" uid="uid://qy47a0sbqivt" path="res://assets/2D explosions/Type 1/1.png" id="3_vq1xc"]
 [ext_resource type="Texture2D" uid="uid://n5loturfi4qi" path="res://assets/2D explosions/Type 1/2.png" id="4_nc4fa"]
 [ext_resource type="Texture2D" uid="uid://b3n3n4jf48oob" path="res://assets/2D explosions/Type 1/3.png" id="5_geppt"]
