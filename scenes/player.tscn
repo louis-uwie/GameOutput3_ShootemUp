@@ -106,7 +106,7 @@ polygon = PackedVector2Array(-30, 64, -37, 56, -37, 15, -43, 11, -43, -52, -38, 
 position = Vector2(1.52588e-05, -1.99998)
 scale = Vector2(5.875, 5.875)
 sprite_frames = SubResource("SpriteFrames_qe7wr")
-frame_progress = 0.991401
+frame_progress = 0.715398
 
 [node name="Area2D" type="Area2D" parent="."]
 collision_layer = 2

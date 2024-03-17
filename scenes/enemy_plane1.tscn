@@ -126,6 +126,6 @@ polygon = PackedVector2Array(6, -34.9, 6, -31.9, 7.4, -28.5, 9.1, -28.5, 27, -26
 position = Vector2(7.62939e-06, 10)
 scale = Vector2(8.625, 8.65625)
 sprite_frames = SubResource("SpriteFrames_0katj")
-frame_progress = 0.834199
+frame_progress = 0.617693
 
 [connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
