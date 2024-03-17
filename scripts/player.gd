@@ -32,6 +32,7 @@ func _physics_process(delta):
 	
 	move_and_slide()
 
+#TODO: PUT INPUT EVENT FOR SHELL IN MAIN SCENE, INSTEAD OF PLAYER SCENE.
 func _input(event):
 	if Input.is_action_pressed("ui_accept") and can_shoot:
 		$Timer.start(1)
