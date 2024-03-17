@@ -36,8 +36,8 @@ func set_healthBar():
 	else:
 		print("Error: HealthBar node not found.")
 
-func damage():
-	health -= 25
+func damage(dmg):
+	health -= dmg
 	if health <= 0:
 		health = MaxHP
 		explosion.play()
@@ -47,16 +47,17 @@ func damage():
 	set_healthBar()
 
 func _on_area_2d_body_entered(body):
-	body.hp-=25
-	hp -= 25
+	body.hp-=50
+	body.animating()
+	hp -= 50
 	print("Body entered:", body)
 	print("Player HP: ", hp)
-	damage()
+	damage(25)
 	
 func _physics_process(delta):
 	if position.y >= 980:
 		health -= 110
-		damage()
+		damage(100)
 		
 	if !gameOver:
 		var direction = Vector2(

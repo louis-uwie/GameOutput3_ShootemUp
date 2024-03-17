@@ -8,6 +8,6 @@ func _physics_process(delta):
 
 func _on_body_entered(body):
 	body.hp-=25
-	if body.hp == 0:
-		body.queue_free()
+	if body.hp == 0: 
+		body.animating()
 	queue_free()

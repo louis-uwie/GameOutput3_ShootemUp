@@ -8,5 +8,6 @@ func _physics_process(delta):
 
 func _on_body_entered(body):
 	body.hp-=5
+	body.damage(5)
 	print("Player Hp: ", body.hp)
 	queue_free()
