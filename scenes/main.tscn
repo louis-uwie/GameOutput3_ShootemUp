@@ -8,4 +8,10 @@
 [node name="ParallaxBackground" parent="." instance=ExtResource("1_c5knn")]
 
 [node name="Player" parent="." instance=ExtResource("2_ban8g")]
-position = Vector2(615, 278)
+position = Vector2(593, 1072)
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+position = Vector2(2, 8)
+offset = Vector2(0, -270)
+zoom = Vector2(1, 0.8)
+position_smoothing_speed = 1.0
