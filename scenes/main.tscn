@@ -8,4 +8,4 @@
 [node name="ParallaxBackground" parent="." instance=ExtResource("1_c5knn")]
 
 [node name="Player" parent="." instance=ExtResource("2_ban8g")]
-position = Vector2(593, 1072)
+position = Vector2(251, 543)
