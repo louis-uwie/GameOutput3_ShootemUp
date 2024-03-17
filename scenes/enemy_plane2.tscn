@@ -103,4 +103,4 @@ texture_filter = 1
 position = Vector2(-3, -8.00001)
 scale = Vector2(13.2803, 13.6295)
 sprite_frames = SubResource("SpriteFrames_57kf6")
-frame_progress = 0.103434
+frame_progress = 0.90823

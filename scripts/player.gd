@@ -21,7 +21,6 @@ func animating():
 	$HealthLabel.hide()
 	await get_tree().create_timer(1).timeout
 	speed = 0
-	emit_signal("playerDead")
 	queue_free()
 
 func set_healthLabel():
@@ -57,7 +56,7 @@ func _on_area_2d_body_entered(body):
 func _physics_process(delta):
 	if position.y >= 980:
 		health -= 110
-		damage(100)
+		damage(25)
 		
 	if !gameOver:
 		var direction = Vector2(
