@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://dq38bet3gd6a5"]
+
+[node name="boundary_box" type="CollisionPolygon2D"]
+light_mask = 0
+visibility_layer = 4
+position = Vector2(-132.872, 119.046)
+scale = Vector2(2.44636, 3.65591)
+polygon = PackedVector2Array(54.1953, -0.498673, 53.3704, -0.498673, 56, 245, 568, 245, 567.742, 0.486382, 55.0203, -0.498673, 55.0203, 0.204938, 567.605, 0.627104, 567.742, 244.78, 56.5327, 244.358)
