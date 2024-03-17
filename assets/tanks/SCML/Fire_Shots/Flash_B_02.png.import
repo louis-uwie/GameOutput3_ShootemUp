@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c6oqiivjgjrbu"
-path="res://.godot/imported/Flash_B_02.png-16e5918a44d122f2f0aded8d42be9e9e.ctex"
+uid="uid://2c76wad36aag"
+path="res://.godot/imported/Flash_B_02.png-7101ddd796d54475fcaf8e904a63b30a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/tanks/SCML/Fire_Shots/Flash_B_02.png"
-dest_files=["res://.godot/imported/Flash_B_02.png-16e5918a44d122f2f0aded8d42be9e9e.ctex"]
+source_file="res://assets/Tanks/SCML/Fire_Shots/Flash_B_02.png"
+dest_files=["res://.godot/imported/Flash_B_02.png-7101ddd796d54475fcaf8e904a63b30a.ctex"]
 
 [params]
 

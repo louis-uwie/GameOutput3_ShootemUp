@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cv2flkp5a05op"
-path="res://.godot/imported/Hull_05.png-850e0a55032563f4cbf23aadcac57619.ctex"
+uid="uid://b2lhmncude0t0"
+path="res://.godot/imported/Hull_05.png-5b1a56acd783f7b34cee990faaf79bcb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/tanks/PNG/Hulls_Color_C/Hull_05.png"
-dest_files=["res://.godot/imported/Hull_05.png-850e0a55032563f4cbf23aadcac57619.ctex"]
+source_file="res://assets/Tanks/PNG/Hulls_Color_C/Hull_05.png"
+dest_files=["res://.godot/imported/Hull_05.png-5b1a56acd783f7b34cee990faaf79bcb.ctex"]
 
 [params]
 

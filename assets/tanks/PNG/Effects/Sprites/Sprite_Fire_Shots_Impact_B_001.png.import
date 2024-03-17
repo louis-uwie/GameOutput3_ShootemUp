@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c0pj6ke33wx1s"
-path="res://.godot/imported/Sprite_Fire_Shots_Impact_B_001.png-6dd961e24004048d7139675f14c8df15.ctex"
+uid="uid://dtpbg767y7ar3"
+path="res://.godot/imported/Sprite_Fire_Shots_Impact_B_001.png-5552629cd1ab23c26d4bf26073192bf4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/tanks/PNG/Effects/Sprites/Sprite_Fire_Shots_Impact_B_001.png"
-dest_files=["res://.godot/imported/Sprite_Fire_Shots_Impact_B_001.png-6dd961e24004048d7139675f14c8df15.ctex"]
+source_file="res://assets/Tanks/PNG/Effects/Sprites/Sprite_Fire_Shots_Impact_B_001.png"
+dest_files=["res://.godot/imported/Sprite_Fire_Shots_Impact_B_001.png-5552629cd1ab23c26d4bf26073192bf4.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://w5bnbitghm6s"
-path="res://.godot/imported/Smoke_B.png-8819a6d8051a8a0d67cd6bbda5eaaba4.ctex"
+uid="uid://v0xsch23xsow"
+path="res://.godot/imported/Smoke_B.png-c5ad5e0a06b01806131dd186e5d131ce.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/tanks/SCML/Effects/Smoke_B.png"
-dest_files=["res://.godot/imported/Smoke_B.png-8819a6d8051a8a0d67cd6bbda5eaaba4.ctex"]
+source_file="res://assets/Tanks/SCML/Effects/Smoke_B.png"
+dest_files=["res://.godot/imported/Smoke_B.png-c5ad5e0a06b01806131dd186e5d131ce.ctex"]
 
 [params]
 

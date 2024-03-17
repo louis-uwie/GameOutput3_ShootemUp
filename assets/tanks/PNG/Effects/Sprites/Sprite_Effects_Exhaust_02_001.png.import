@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bfoiuuu0e4gqd"
-path="res://.godot/imported/Sprite_Effects_Exhaust_02_001.png-5ce80fb3fe0813bc4bcb37d63611b5aa.ctex"
+uid="uid://ce6awe8mkyyib"
+path="res://.godot/imported/Sprite_Effects_Exhaust_02_001.png-f7ae97bd55fd5425fb78fa6211f50c6e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/tanks/PNG/Effects/Sprites/Sprite_Effects_Exhaust_02_001.png"
-dest_files=["res://.godot/imported/Sprite_Effects_Exhaust_02_001.png-5ce80fb3fe0813bc4bcb37d63611b5aa.ctex"]
+source_file="res://assets/Tanks/PNG/Effects/Sprites/Sprite_Effects_Exhaust_02_001.png"
+dest_files=["res://.godot/imported/Sprite_Effects_Exhaust_02_001.png-f7ae97bd55fd5425fb78fa6211f50c6e.ctex"]
 
 [params]
 

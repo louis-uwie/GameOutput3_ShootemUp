@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bicq56kvghhg3"
-path="res://.godot/imported/Flash_B_03.png-a7c5e507c7243861327afb9dbff71afa.ctex"
+uid="uid://bdm1svmc0jau"
+path="res://.godot/imported/Flash_B_03.png-af05c34df3b0a9e74ce894f16c43bada.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/tanks/PNG/Effects/Flash_B_03.png"
-dest_files=["res://.godot/imported/Flash_B_03.png-a7c5e507c7243861327afb9dbff71afa.ctex"]
+source_file="res://assets/Tanks/PNG/Effects/Flash_B_03.png"
+dest_files=["res://.godot/imported/Flash_B_03.png-af05c34df3b0a9e74ce894f16c43bada.ctex"]
 
 [params]
 

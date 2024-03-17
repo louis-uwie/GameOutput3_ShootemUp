@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://s4iha7rmic41"
-path="res://.godot/imported/Light_Shell.png-1d370729c5222b5c829017bbf47186f2.ctex"
+uid="uid://doqp6etp7ta7g"
+path="res://.godot/imported/Light_Shell.png-3f2444d49bdc83c7dd39089c55ffc57b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/tanks/PNG/Effects/Light_Shell.png"
-dest_files=["res://.godot/imported/Light_Shell.png-1d370729c5222b5c829017bbf47186f2.ctex"]
+source_file="res://assets/Tanks/PNG/Effects/Light_Shell.png"
+dest_files=["res://.godot/imported/Light_Shell.png-3f2444d49bdc83c7dd39089c55ffc57b.ctex"]
 
 [params]
 

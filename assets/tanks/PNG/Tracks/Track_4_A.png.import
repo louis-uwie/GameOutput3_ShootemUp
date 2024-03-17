@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://baukhr7v176f0"
-path="res://.godot/imported/Track_4_A.png-a6f70403415f72a9f4fb432e729bdc8f.ctex"
+uid="uid://c8asjrsfgbbav"
+path="res://.godot/imported/Track_4_A.png-42cccb4d7c51f2a1ba7c4b1bcabc5370.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/tanks/PNG/Tracks/Track_4_A.png"
-dest_files=["res://.godot/imported/Track_4_A.png-a6f70403415f72a9f4fb432e729bdc8f.ctex"]
+source_file="res://assets/Tanks/PNG/Tracks/Track_4_A.png"
+dest_files=["res://.godot/imported/Track_4_A.png-42cccb4d7c51f2a1ba7c4b1bcabc5370.ctex"]
 
 [params]
 

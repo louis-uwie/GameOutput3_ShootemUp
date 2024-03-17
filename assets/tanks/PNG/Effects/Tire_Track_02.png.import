@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b0cxnk1jj5vmm"
-path="res://.godot/imported/Tire_Track_02.png-703f0f01fb25e557d7709be7faccc52f.ctex"
+uid="uid://hs7gsk2jan1k"
+path="res://.godot/imported/Tire_Track_02.png-8dee1c764731043267d051172c3140eb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/tanks/PNG/Effects/Tire_Track_02.png"
-dest_files=["res://.godot/imported/Tire_Track_02.png-703f0f01fb25e557d7709be7faccc52f.ctex"]
+source_file="res://assets/Tanks/PNG/Effects/Tire_Track_02.png"
+dest_files=["res://.godot/imported/Tire_Track_02.png-8dee1c764731043267d051172c3140eb.ctex"]
 
 [params]
 

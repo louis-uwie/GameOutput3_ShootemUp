@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://5p0q4cuf18ls"
-path="res://.godot/imported/Flame_H.png-7859bb25bc2863f2b1d95d2b048a2595.ctex"
+uid="uid://dirq6qexoaxrh"
+path="res://.godot/imported/Flame_H.png-ac49981bd96699b67fcfb48b069c905f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/tanks/SCML/Fire_Shots/Flame_H.png"
-dest_files=["res://.godot/imported/Flame_H.png-7859bb25bc2863f2b1d95d2b048a2595.ctex"]
+source_file="res://assets/Tanks/SCML/Fire_Shots/Flame_H.png"
+dest_files=["res://.godot/imported/Flame_H.png-ac49981bd96699b67fcfb48b069c905f.ctex"]
 
 [params]
 

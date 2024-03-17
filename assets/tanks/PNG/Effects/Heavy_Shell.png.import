@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bbvr41r623jep"
-path="res://.godot/imported/Heavy_Shell.png-83c1d8b3fdd0921e7a85d8864a851f23.ctex"
+uid="uid://c0owbt8msdirx"
+path="res://.godot/imported/Heavy_Shell.png-33141089d29714d4fc1c3eb730f86593.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/tanks/PNG/Effects/Heavy_Shell.png"
-dest_files=["res://.godot/imported/Heavy_Shell.png-83c1d8b3fdd0921e7a85d8864a851f23.ctex"]
+source_file="res://assets/Tanks/PNG/Effects/Heavy_Shell.png"
+dest_files=["res://.godot/imported/Heavy_Shell.png-33141089d29714d4fc1c3eb730f86593.ctex"]
 
 [params]
 

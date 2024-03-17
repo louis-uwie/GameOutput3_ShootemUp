@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dobqwt8261e2c"
-path="res://.godot/imported/Explosion_A.png-24e3fbbdebf1d9b303a26aa40d0acee8.ctex"
+uid="uid://csklr5y1yurt4"
+path="res://.godot/imported/Explosion_A.png-b46f4fbaa972f396a47aecfd1e2837fa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/tanks/SCML/Effects/Explosion_A.png"
-dest_files=["res://.godot/imported/Explosion_A.png-24e3fbbdebf1d9b303a26aa40d0acee8.ctex"]
+source_file="res://assets/Tanks/SCML/Effects/Explosion_A.png"
+dest_files=["res://.godot/imported/Explosion_A.png-b46f4fbaa972f396a47aecfd1e2837fa.ctex"]
 
 [params]
 

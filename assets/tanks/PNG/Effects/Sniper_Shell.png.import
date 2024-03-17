@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://2aa8nmw07f1l"
-path="res://.godot/imported/Sniper_Shell.png-2556ebdc2d7b21390246496c4742e2d7.ctex"
+uid="uid://bfhvl4o8or1yl"
+path="res://.godot/imported/Sniper_Shell.png-b4e1bdc9900575334a23c8fd11fe10e6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/tanks/PNG/Effects/Sniper_Shell.png"
-dest_files=["res://.godot/imported/Sniper_Shell.png-2556ebdc2d7b21390246496c4742e2d7.ctex"]
+source_file="res://assets/Tanks/PNG/Effects/Sniper_Shell.png"
+dest_files=["res://.godot/imported/Sniper_Shell.png-b4e1bdc9900575334a23c8fd11fe10e6.ctex"]
 
 [params]
 
