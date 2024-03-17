@@ -3,6 +3,40 @@ extends CharacterBody2D
 @export var speed = 600 #speed of tank
 var hp = 100
 
+const MaxHP = 100
+var health = MaxHP
+
+func _ready():
+	set_healthLabel()
+	set_healthBar()
+
+func set_healthLabel():
+	if $HealthLabel:
+		$HealthLabel.text = "Health: %s" % str(health)
+	else:
+		print("Error: HealthLabel node not found.")
+
+func set_healthBar():
+	if $HealthBar:
+		$HealthBar.value = health
+	else:
+		print("Error: HealthBar node not found.")
+
+func damage():
+	health -= 25
+	if health < 0:
+		health = MaxHP
+	set_healthLabel()
+	set_healthBar()
+
+func _on_area_2d_body_entered(body):
+	hp -= 25
+	print("Body entered:", body)
+	print("Player HP: ", hp)
+	#TODO: Add hp animation and explosion
+	damage()
+	body.queue_free()
+	
 func _physics_process(delta):
 	var direction = Vector2(
 		Input.get_action_strength("move_right") - Input.get_action_strength("move_left"),
@@ -18,11 +52,3 @@ func _physics_process(delta):
 	# Apply movement
 	velocity = direction * speed
 	move_and_slide()
-
-
-func _on_area_2d_body_entered(body):
-	hp -= 25
-	print("Body entered:", body)
-	print("Player HP: ", hp)
-	#TODO: Add hp animation and explosion
-	body.queue_free()

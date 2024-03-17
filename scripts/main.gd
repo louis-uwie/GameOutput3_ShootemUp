@@ -11,7 +11,6 @@ func _ready():
 func _process(delta):
 	pass
 
-
 func _on_timer_timeout():
 	print("Timeout")
 	timer.stop()
@@ -20,3 +19,4 @@ func _on_timer_timeout():
 	enemy.position.y = -90
 	add_child(enemy)
 	timer.start(randi_range(1, 5))
+	
