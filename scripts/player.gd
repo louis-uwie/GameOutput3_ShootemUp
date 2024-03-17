@@ -21,6 +21,7 @@ func _physics_process(delta):
 
 
 func _on_area_2d_body_entered(body):
+	body.hp-=25
 	hp -= 25
 	print("Body entered:", body)
 	print("Player HP: ", hp)
