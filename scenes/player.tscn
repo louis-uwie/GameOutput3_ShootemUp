@@ -31,12 +31,12 @@ region = Rect2(0, 0, 32, 32)
 atlas = ExtResource("6_o4xmg")
 region = Rect2(0, 0, 32, 32)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_i4qgo"]
-atlas = ExtResource("7_14vkd")
-region = Rect2(0, 0, 32, 32)
-
 [sub_resource type="AtlasTexture" id="AtlasTexture_nbc8e"]
 atlas = ExtResource("8_53lsy")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i4qgo"]
+atlas = ExtResource("7_14vkd")
 region = Rect2(0, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_t1mii"]
@@ -53,7 +53,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_581hu")
 }, {
-"duration": 4.0,
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_ljayy")
 }, {
 "duration": 1.0,
@@ -66,18 +66,12 @@ animations = [{
 "texture": SubResource("AtlasTexture_tr3w7")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_i4qgo")
-}, {
-"duration": 1.0,
 "texture": SubResource("AtlasTexture_nbc8e")
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_i4qgo")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_kq7o6")
-}, {
-"duration": 2.0,
 "texture": SubResource("AtlasTexture_t1mii")
 }, {
 "duration": 1.0,
@@ -85,7 +79,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"default",
-"speed": 10.0
+"speed": 14.0
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_h182r"]
@@ -112,7 +106,7 @@ polygon = PackedVector2Array(-30, 64, -37, 56, -37, 15, -43, 11, -43, -52, -38, 
 position = Vector2(1.52588e-05, -1.99998)
 scale = Vector2(5.875, 5.875)
 sprite_frames = SubResource("SpriteFrames_qe7wr")
-frame_progress = 0.249876
+frame_progress = 0.991401
 
 [node name="Area2D" type="Area2D" parent="."]
 collision_layer = 2

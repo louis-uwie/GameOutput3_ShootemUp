@@ -1,5 +1,6 @@
 extends CharacterBody2D
 
+@onready var explosion = $AnimatedSprite2D2
 var hp = 25
 
 func _physics_process(delta):
@@ -7,10 +8,14 @@ func _physics_process(delta):
 		position.y += 5
 	else:
 		print("freed")
-		queue_free()
 
-
+func animating():
+	explosion.play()
+	await get_tree().create_timer(0.5).timeout
+	queue_free()
+	
 func _on_area_2d_body_entered(body):
 	hp-=25
-	#TODO: Plane explode animation
+	if hp <= 0:
+		animating()
 	print("Plane HP: ", hp)

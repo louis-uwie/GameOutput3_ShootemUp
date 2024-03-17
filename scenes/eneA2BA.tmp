@@ -68,7 +68,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_581hu")
 }, {
-"duration": 1.0,
+"duration": 4.0,
 "texture": SubResource("AtlasTexture_ljayy")
 }, {
 "duration": 1.0,
@@ -87,6 +87,12 @@ animations = [{
 "texture": SubResource("AtlasTexture_nbc8e")
 }, {
 "duration": 1.0,
+"texture": SubResource("AtlasTexture_i4qgo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kq7o6")
+}, {
+"duration": 2.0,
 "texture": SubResource("AtlasTexture_t1mii")
 }, {
 "duration": 1.0,
@@ -94,7 +100,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"default",
-"speed": 14.0
+"speed": 10.0
 }]
 
 [node name="EnemyPlane1" type="CharacterBody2D"]
@@ -123,9 +129,8 @@ scale = Vector2(2.5, 2.5)
 polygon = PackedVector2Array(6, -34.9, 6, -31.9, 7.4, -28.5, 9.1, -28.5, 27, -26.3, 27, -19.5, 30.2, -19.5, 49, -16.2, 49, -14.6, 50, -13.9, 50, -3.5, 45.8, 0.5, 37.2, 0.5, 8, 3.3, 8, 10.7, 7.4, 14.5, 8.4, 14.5, 24, 21.2, 24, 26.3, 19.8, 30.5, 16.2, 30.5, 6.8, 31.4, 5.2, 35.5, -5, 35.5, -5, 34.9, -5.7, 31.5, -15.2, 31.5, -21, 30.1, -21, 28, -24.3, 22.5, -23.2, 20.5, -22.1, 20.5, -20.1, 17.5, -17.1, 17.5, -7, 15, -7, 8.5, -7.8, 3.5, -13.1, 3.5, -46, 0.299999, -46, -1.4, -50, -4.1, -50, -13.5, -45.8, -17.5, -38.3, -17.5, -27, -19.2, -27, -21.8, -25.4, -26.5, -21.2, -26.5, -7, -28.3, -7, -31.3, -3, -35.3, 4.5, -35.5)
 
 [node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="."]
-position = Vector2(7.62939e-06, 10)
-scale = Vector2(8.625, 8.65625)
+position = Vector2(1.52588e-05, -1.99998)
+scale = Vector2(5.875, 5.875)
 sprite_frames = SubResource("SpriteFrames_0katj")
-frame_progress = 0.834199
 
 [connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

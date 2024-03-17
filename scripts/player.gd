@@ -51,7 +51,6 @@ func _on_area_2d_body_entered(body):
 	print("Body entered:", body)
 	print("Player HP: ", hp)
 	damage()
-	body.queue_free()
 	
 func _physics_process(delta):
 	if position.y >= 980:
