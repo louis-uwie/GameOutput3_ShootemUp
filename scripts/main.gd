@@ -13,6 +13,7 @@ func _process(delta):
 
 
 func _on_timer_timeout():
+	print("Timeout")
 	timer.stop()
 	var enemy = enemy_scene.instantiate()
 	enemy.position.x = randi_range(196, 956)

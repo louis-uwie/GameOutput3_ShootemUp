@@ -1,8 +1,6 @@
 extends CharacterBody2D
 
 @export var speed = 600 #speed of tank
-var rotation_speed = 1.0  #rotate speed (buggy if too low or too high values)
-var max_rotation = 45.0 #(also buggy if values are too high or low)
 var hp = 100
 
 func _physics_process(delta):
@@ -11,15 +9,14 @@ func _physics_process(delta):
 		Input.get_action_strength("move_down") - Input.get_action_strength("move_up")
 	).normalized()
 
-	rotation = rotation_degrees
-
-	var rotation_radians = deg_to_rad(rotation_degrees)
-
-	var rotated_direction = Vector2(direction.x * cos(rotation_radians) - direction.y * sin(rotation_radians),
-									direction.x * sin(rotation_radians) + direction.y * cos(rotation_radians))
+	# Disable movement upwards if player Y is below 700
+	if position.y < 700:
+		direction.y = max(0, direction.y)
+	elif position.y > 935:
+		direction.y = min(0, direction.y)
 
 	# Apply movement
-	velocity = rotated_direction * speed
+	velocity = direction * speed
 	move_and_slide()
 
 
