@@ -3,19 +3,13 @@ extends CharacterBody2D
 @export var speed = 600 #speed of tank
 var rotation_speed = 1.0  #rotate speed (buggy if too low or too high values)
 var max_rotation = 45.0 #(also buggy if values are too high or low)
+var hp = 100
 
 func _physics_process(delta):
 	var direction = Vector2(
 		Input.get_action_strength("move_right") - Input.get_action_strength("move_left"),
 		Input.get_action_strength("move_down") - Input.get_action_strength("move_up")
 	).normalized()
-
-	if Input.is_action_pressed("rotate_left"):
-		rotation_degrees = clamp(rotation_degrees - rotation_speed * delta, -max_rotation, 0)
-	elif Input.is_action_pressed("rotate_right"):
-		rotation_degrees = clamp(rotation_degrees + rotation_speed * delta, 0, max_rotation)
-	else:
-		rotation_degrees = 0
 
 	rotation = rotation_degrees
 
@@ -27,3 +21,11 @@ func _physics_process(delta):
 	# Apply movement
 	velocity = rotated_direction * speed
 	move_and_slide()
+
+
+func _on_area_2d_body_entered(body):
+	hp -= 25
+	print("Body entered:", body)
+	print("Player HP: ", hp)
+	#TODO: Add hp animation and explosion
+	body.queue_free()
