@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d0x1g8qtqvgvr"
-path="res://.godot/imported/Flame_A.png-1c650e4b94b02ed30676d55692468072.ctex"
+path="res://.godot/imported/Flame_A.png-118947ee60fe598b9cfdc8706c997f6b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Tanks/PNG/Effects/Flame_A.png"
-dest_files=["res://.godot/imported/Flame_A.png-1c650e4b94b02ed30676d55692468072.ctex"]
+source_file="res://assets/tanks/PNG/Effects/Flame_A.png"
+dest_files=["res://.godot/imported/Flame_A.png-118947ee60fe598b9cfdc8706c997f6b.ctex"]
 
 [params]
 

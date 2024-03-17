@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cvh3wxrixawvc"
-path="res://.godot/imported/Granade_Shell.png-c1d50cb54fad4c1c49da9ae13bde1887.ctex"
+path="res://.godot/imported/Granade_Shell.png-d4ea99cb9788e8c01d111fb51d7753ac.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Tanks/PNG/Effects/Granade_Shell.png"
-dest_files=["res://.godot/imported/Granade_Shell.png-c1d50cb54fad4c1c49da9ae13bde1887.ctex"]
+source_file="res://assets/tanks/PNG/Effects/Granade_Shell.png"
+dest_files=["res://.godot/imported/Granade_Shell.png-d4ea99cb9788e8c01d111fb51d7753ac.ctex"]
 
 [params]
 

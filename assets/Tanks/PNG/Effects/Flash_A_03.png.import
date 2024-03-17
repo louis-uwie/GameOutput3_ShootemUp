@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c60pocffyht5g"
-path="res://.godot/imported/Flash_A_03.png-606605129ab80719656b3399e0a92974.ctex"
+path="res://.godot/imported/Flash_A_03.png-98e532bb6799e288490c2dc51c6f921a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Tanks/PNG/Effects/Flash_A_03.png"
-dest_files=["res://.godot/imported/Flash_A_03.png-606605129ab80719656b3399e0a92974.ctex"]
+source_file="res://assets/tanks/PNG/Effects/Flash_A_03.png"
+dest_files=["res://.godot/imported/Flash_A_03.png-98e532bb6799e288490c2dc51c6f921a.ctex"]
 
 [params]
 
