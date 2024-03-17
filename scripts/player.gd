@@ -5,7 +5,6 @@ var rotation_speed = 1.0
 var max_rotation = 45.0
 
 
-
 func _physics_process(delta):
 	var direction = Vector2(
 		Input.get_action_strength("move_right") - Input.get_action_strength("move_left"),
@@ -28,8 +27,5 @@ func _physics_process(delta):
 		direction.x * sin(rotation_radians) + direction.y * cos(rotation_radians)
 	)
 
-	# Apply movement
 	velocity = rotated_direction * speed
-
-	# Move and slide with collision detection
 	move_and_slide()
