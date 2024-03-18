@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-@export var speed = 600 #speed of tank
+@export var speed = 600
 @export var gameOver = false
 @onready var explosion = $AnimatedSprite2D
 
@@ -62,21 +62,18 @@ func _physics_process(delta):
 		var direction = Vector2(
 			Input.get_action_strength("move_right") - Input.get_action_strength("move_left"),
 			Input.get_action_strength("move_down") - Input.get_action_strength("move_up")
-		).normalized()
+			).normalized()
 
-		# Disable movement upwards if player Y is below 700
 		if position.y < 700:
 			direction.y = max(0, direction.y)
 		elif position.y > 935:
 			direction.y = min(0, direction.y)
-			
+
 		if gameOver:
 			direction.x = max(0,direction.x)
 			direction.y = max(0,direction.y)
 
-		# Apply movement
 		velocity = direction * speed
 		move_and_slide()
 	else:
-		# Stop accepting keyboard input
 		self.set_process_input(false)
